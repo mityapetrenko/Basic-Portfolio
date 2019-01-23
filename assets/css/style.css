@@ -23,18 +23,16 @@ nav {
     left:55%;
 
 } 
-.bio {
-    color:#ffffff;
+.bio, .biotext {
+    color:#1a0909;
     border:solid;
     border-color: #dddddd;
     width: 960px;
     height: 500;
 
-
 }
 .biotext {
-    z-index: 2;
-    float: left;
+    color: black
 }
 footer {
     background-color: #666666;
@@ -45,15 +43,16 @@ footer {
 
 }
 body {
-    background-image: url("../images/white-waves.png")
+    background-image: url("../images/white-waves.png");
+
 }
-.form{px
+.form{
     width: 960px;
 
 }
 .button{
     background-color: #4aaaa5;
-    color:white;
+    color:rgb(14, 1, 1);
     width: 50px;
     height: 20px;
 }
