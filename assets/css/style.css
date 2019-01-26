@@ -26,6 +26,7 @@ nav {
     top:30%;
     left: 70%;
 
+
 } 
 body {
     background-image: url("../images/white-waves.png");
@@ -39,7 +40,9 @@ p {
 h2 {
     color:#4aaaa5;
    padding-left: 20px;
+   border-bottom: 2px solid lightgray;
 }
+/* main bio paragraph*/
 article {
     border:solid;
     border-color: #dddddd;
@@ -48,6 +51,7 @@ article {
     margin: 0 auto;
     background-color: #ffffff;
     padding: 20px;
+    box-sizing:border-box;
 
 
 }
@@ -57,37 +61,52 @@ footer {
     height: 50px;
     width: 100%;
     margin-top: 10px;
+    border-top: 8px solid #4aaaa5;
 
 }
-
+/*pics section*/
 section {
     margin:0 auto;
     width:960px;
-    height; 2000px;
+    overflow: auto;
     background-color:#ffffff;
     border:solid;
     border-color: #dddddd;
+    box-sizing:border-box;
 
 }
 .images {
     position: relative;
     float: left;
+    width:33.3%;
+    padding:20px;
 }
+/*project names*/
 p {
     position: relative;
-    top: 25px;
+    top: -80px;
+    background-color: #4aaaa5;
+    width:300px;
+    height:50px;
+    text-align: center;
+    color: white;
 
+}
+.image1 .image2 .image3 .image 4 .image5{
+    width:300px;
 }
 form{
     width: 960px;
     margin: 0 auto; 
     padding-left: 20px;
-    line-height: 20px;s
+    line-height: 20px;
+    box-sizing:border-box;
 
 }
 .button{
     background-color: #4aaaa5;
-    color:rgb(14, 1, 1);
-    width: 50px;
+    color:white;
+    width: 80px;
     height: 20px;
+    
 }
