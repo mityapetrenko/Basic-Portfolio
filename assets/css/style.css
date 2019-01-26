@@ -1,61 +1,67 @@
-header {
+nav {
+    position: absolute;
+    color:#777777;
     background-color: white;
     width: 100%;
-    border: 0 0 5px 0; 
+    border-bottom: solid #777777;
+    margin: 0 0 100px 0; 
     border-color:#cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: relative;
-    margin: 0; 
     height: 100px;
-}
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+} 
 h1 {
-    position: relative;
+    position: absolute;
+    z-index: 2;
     background-color: #4aaaa5; 
     color:white;
     width:300px; 
-    height: 90px;
-    margin:0 0 0 190px;
+    height: 80px;
     text-align: center;
-    padding-top: 10px;
+    margin: 0 0 0 200px; 
+    padding-top: 20px;
+    box-sizing: border-box;
     font-family: 'Georgia', Times, Times New Roman, serif;
-}
-nav {
-    color:#777777;
-    position: absolute;
-    margin: 0;
-    top:30%;
-    left: 70%;
-
-
-} 
-body {
-    background-image: url("../images/white-waves.png");
-}
-p {
-    float: left;
-    color:#777777;
-
 }
 
 h2 {
+
     color:#4aaaa5;
-   padding-left: 20px;
+   padding-left: 0px;
    border-bottom: 2px solid lightgray;
+   font-size: 30px;
 }
-/* main bio paragraph*/
-article {
+body {
+    width: 100%;
+    background-color: #ffffff;
+    background-image: url("../images/white-waves.png");
+}
+article{
+    margin:0 auto;
+    width:960px;
+    overflow: auto;
+    background-color:#ffffff;
     border:solid;
     border-color: #dddddd;
-    width: 960px;
-    height: 500;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 20px;
     box-sizing:border-box;
+    padding:100px;
 
+
+}
+form{ 
+    width: 960px;
+    margin: 0 auto; 
+    padding-left: 20px;
+    padding-top: 100px;
+    line-height: 20px;
+    box-sizing:border-box;
+    background-color: #ffffff
 
 }
 footer {
+    position: absolute;
     background-color: #666666;
     text-align: center;
     height: 50px;
@@ -73,13 +79,14 @@ section {
     border:solid;
     border-color: #dddddd;
     box-sizing:border-box;
+    padding:100px;
 
 }
 .images {
     position: relative;
     float: left;
     width:33.3%;
-    padding:20px;
+    padding:30px;
 }
 /*project names*/
 p {
@@ -92,17 +99,10 @@ p {
     color: white;
 
 }
-.image1 .image2 .image3 .image 4 .image5{
+.image1 .image2 .image3 .image4 .image5{
     width:300px;
 }
-form{
-    width: 960px;
-    margin: 0 auto; 
-    padding-left: 20px;
-    line-height: 20px;
-    box-sizing:border-box;
 
-}
 .button{
     background-color: #4aaaa5;
     color:white;
